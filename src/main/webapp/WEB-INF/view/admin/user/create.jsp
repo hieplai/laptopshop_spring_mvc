@@ -25,7 +25,7 @@ uri="http://www.springframework.org/tags/form" %>
           <hr />
           <form:form
             method="post"
-            action="/admin/user/create1"
+            action="/admin/user/create"
             modelAttribute="newUser"
           >
             <div class="mb-3">
@@ -43,7 +43,7 @@ uri="http://www.springframework.org/tags/form" %>
             <div class="mb-3">
               <label class="form-label">Phone number:</label>
               <form:input path="phone" type="text" class="form-control" />
-            </div>
+            </div>  
             <div class="mb-3">
               <label class="form-label">Full Name:</label>
               <form:input path="fullName" type="text" class="form-control" />
